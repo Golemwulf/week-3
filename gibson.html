@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gibson</title>
+    <!--link to bootstrap  -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+</head>
+<!-- nav bar test -->
+<nav class="navbar text-center" style="background-color: rgb(73, 73, 73);" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color: rgb(123, 177, 221); text-decoration: underline;" href="fender.html">Fender Stratocaster</a>
+      <a class="navbar-brand" href="gibson.html">Gibson Les Paul</a>
+    </div>
+</nav>
+    <header>
+        Gibson Les Paul
+    </header>
+    
+<body class="body bg-dark text-center" data-bs-theme="dark">
+    <!-- js goes here -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <div>
+        <img src="./Images/LP_banner.png" alt="Gibson Les Paul" width="800px">
+        <p>something about the Gibson Les Paul</p>
+        <img src="./Images/hb_no_cover.webp" alt="humbucker pickups without cover" width="400px">
+        <img src="./Images/hb_with_cover.webp" alt="humbucker pickups with cover" width="400px">
+        <p>something about humbucker pickups. mention cover</p>
+    </div>
+    <div>
+        <!-- table goes here along with photos-->
+        <table>
+            <table>
+                <tr>
+                    <th>Neck Type</th>                    
+                    <th>Pick Up</th>
+                    <th>Common Music Genres</th>
+                    <th>Musicians Who Use It</th>
+                </tr>
+                <tr>
+                    <td>Set Neck</td>
+                    <td>Humbucker</td>
+                    <td>Rock and Roll</td>
+                    <td>Jimmy Page</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Metal</td>
+                    <td>Zakk Wylde</td>
+                </tr>
+            </table>
+    </div>
+    <div>
+        <form>
+           <h3>Which is your Favorite?</h3>
+           <label for="fender">Fender Stratocaster</label>
+           <input type="radio" name="fender"> 
+           <label for="gibson">Gibson Les Paul</label>
+           <input type="radio" name="gibson">
+           <label for="favorite-genre">What is your favorite music genre?</label>
+           <input type="text" name="favorite-genre" placeholder="Favorite Music Genre">
+           <input type="submit" name="submit">
+        </form>
+    </div>
+</body>
+</html>
+<!--fender vs gibson. The tables can show famous musicians that used them. Focus on Strat -->
