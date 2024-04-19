@@ -1,4 +1,4 @@
-body {background-color: rgb(13 13 13);
+body {background-image: linear-gradient(black,rgb(29, 29, 29), black);
   color: #f8f9fa;
   margin: 10px;
   text-align: center;
@@ -10,4 +10,8 @@ body {background-color: rgb(13 13 13);
  
 #hollowbody {
   align-items: center;
+}
+
+#invisible {
+  visibility: hidden;
 }
