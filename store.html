@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar-Info</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <a href="index.html"><img src="./Images/prs-logo.png" alt="PRS Logo" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Store</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+  <!-- table test -->
+
+  <table class="table table-striped-columns ">
+    <h1>Catalogue</h1>
+    <thead>
+      <tr>
+        <th scope="col">CE</th>
+        <th scope="col">McCarty</th>
+        <th scope="col">Hollowbody</th>
+        <th scope="col">Signature Series</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row">CE 24 
+          <br> $2,699.00</td>
+        <td>McCarty 
+          <br>$4,660.00</td>
+        <td>Hollowbody II Piezo 
+          <br>$5,970.00</td>
+        <td>Mark Tremonti Signature 
+          <br>$4,600.00</td>
+      </tr>
+      <tr>
+        <td scope="row">CE 24 Semi-Hollow 
+          <br> $2,799.00</td>
+        <td>McCarty 594 
+          <br>$4,660.00</td>
+        <td>McCarty 594 Hollowbody II 
+          <br>$7,020.00</td>
+        <td>DGT 
+          <br>$4,600.00</td>
+      </tr>
+      <tr>
+        <td scope="row">DW CE 24 “Floyd” <br>$2,899.00</td>
+        <td>McCarty 594 Singlecut <br>$5,440.00</td>
+        <td></td>
+        <td>Santana Retro
+          <br>$4,890.00
+        </td>
+        
+      </tr>
+      
+    </tbody>
+  </table>
+<!-- form dropdown menu with text inputs and "checkout button" -->
+<section id="cart" class="bg-light">
+<h1>Take One Home</h1>
+
+<p>Select your dream music machine below</p>
+
+<form action="/action_page.php" id="checkout">
+  <label for="cars">Choose Your New Guitar:</label>
+  <select name="guitars" id="guitars">
+    <optgroup label="CE">
+      <option value="ce-24">CE 24</option>
+      <option value="ce-semi-hollow">CE 24 Semi-Hollow</option>
+      <option value="ce-floyd">DW CE 24 “Floyd”</option>
+    </optgroup>
+    <optgroup label="McCarty">
+      <option value="mccarty">McCarty</option>
+      <option value="mccarty-594">McCarty 594</option>
+      <option value="mccarty-singlecut">McCarty 594 Singlecut</option>
+      
+    </optgroup>
+    <optgroup label="Hollowbody">
+      <option value="piezo">Hollowbody II Piezo</option>
+      <option value="mccarty-hollowbody">McCarty 594 Hollowbody II</option>
+     
+    </optgroup>
+    <optgroup label="Signature Series">
+      <option value="mt-signature">Mark Tremonti Signature</option>
+      <option value="dgt">DGT</option>
+      <option value="santana-retro">Santana Retro</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="text" name="color" placeholder="Color Preference"> <br>
+  <input type="text" name="quantity" placeholder="Quantity"> <br>
+  <!-- This button can't do anything yet without js. -->
+  <button type="button">Add to Cart</button>
+</form>
+</section>         
+</body>
+<footer>
+  Created by Tim Adams for Promineo Front End Bootcamp Week 3
+</footer>
+</html>

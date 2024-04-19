@@ -1,0 +1,13 @@
+body {background-color: rgb(13 13 13);
+  color: #f8f9fa;
+  margin: 10px;
+  text-align: center;
+}
+#cart {
+  color: #000;
+  text-align: left;
+}
+ 
+#hollowbody {
+  align-items: center;
+}
