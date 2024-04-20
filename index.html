@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guitar-Info</title>
+    <!-- These are the links to bootstrap and my styles sheet -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- This is the script that allows any js elements to run with bootstrap. -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+    <!-- navbar I wanted the elements of the nav bar to just to different sections of the page with anchors.  -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fs-1" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
+          <!-- added the official logo of the company in place of a title -->
           <a href="index.html"><img src="./Images/prs-logo.png" alt="PRS Logo" width="100px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,7 +23,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#CE">CE</a>
+                <a class="nav-link" href="#CE">CE</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#mccarty">McCarty</a>
@@ -42,7 +45,10 @@
   
     <!-- end navbar -->
    <!-- CE section -->
-   <section id="CE" class="menu-section container">
+
+   <!-- I used the card display type for each element on the page. I thought it looks nice and worked well within the bootstrap frame work. 
+    Each card contains an image along with a basic name and price. The rest of this page will follow this format. -->
+   <section id="CE" class="menu-section container fs-3">
     <h2 class="mb-4">CE</h2>
     <div class="row">
       <div class="col-md-4 menu-item">
@@ -92,7 +98,7 @@
 
 
 <!-- mccarty section -->
-  <section id="mccarty" class="menu-section container">
+  <section id="mccarty" class="menu-section container fs-3">
     <h2 class="mb-4">McCarty</h2>
     <div class="row">
       <div class="col-md-4 menu-item">
@@ -140,7 +146,7 @@
     </section><br><br><br>  
 
     <!-- hollowbody section -->
-    <section id="hollowbody" class="menu-section container">
+    <section id="hollowbody" class="menu-section container fs-3">
     <h2 class="mb-4">Hollowbody</h2>
     <div class="row">
       <div class="col-md-4 menu-item">
@@ -157,7 +163,7 @@
           </div>
         </div>
       </div>
-      <!-- this card is hidden place holder to keep the image sizes uniform -->
+      <!-- this card is a hidden place holder to keep the image sizes uniform -->
       <div class="col-md-4 menu-item" id="invisible">
         <div class="card">
           <img
@@ -189,7 +195,7 @@
       </div>
     </section><br><br><br>
 <!-- signature series section -->
-<section id="signature" class="menu-section container">
+<section id="signature" class="menu-section container fs-3">
   <h2 class="mb-4">Signature Series</h2>
   <div class="row">
     <div class="col-md-4 menu-item">
@@ -234,11 +240,13 @@
         </div>
       </div>
     </div>
+    <!-- added the "br's" here to create space between the last card and the bottom nav bar-->
   </section><br><br><br>
-    <!-- back to top button -->
-    <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+    <!--placed the navbar at the bottom of the page for convenience -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fs-1" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
+        <!-- added the official logo of the company in place of a title -->
         <a href="index.html"><img src="./Images/prs-logo.png" alt="PRS Logo" width="100px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -246,7 +254,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#CE">CE</a>
+              <a class="nav-link" href="#CE">CE</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#mccarty">McCarty</a>

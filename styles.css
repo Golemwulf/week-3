@@ -2,6 +2,7 @@ body {background-image: linear-gradient(black,rgb(29, 29, 29), black);
   color: #f8f9fa;
   margin: 10px;
   text-align: center;
+  
 }
 #cart {
   color: #000;
@@ -11,11 +12,11 @@ body {background-image: linear-gradient(black,rgb(29, 29, 29), black);
 #hollowbody {
   align-items: center;
 }
-
+/* hid the placeholder card in the hollowbody section on the index page */
 #invisible {
   visibility: hidden;
 }
-
+/* added a subtle reaction for the card when the user hovers over it. */
 .card:hover {
   width: 99.5%;
   

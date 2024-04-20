@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guitar-Info</title>
+    <title>store</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-
-    <nav class="navbar navbar-expand-lg bg-light">
+<!-- I used the same navbar format from the index page, but removed the text options since there were sections to jump to. I kept if for visual consistency.  -->
+    <nav class="navbar navbar-expand-lg bg-dark fs-1">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
           <a href="index.html"><img src="./Images/prs-logo.png" alt="PRS Logo" width="100px"></a>
@@ -29,7 +29,7 @@
                 <a class="nav-link" href="#"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Store</a>
+                <a class="nav-link" href="#"></a>
               </li>
             </ul>
           </div>
@@ -38,7 +38,8 @@
       <br><br>
   <!-- table test -->
 
-  <table class="table table-striped-columns">
+  <!-- simple table to display the different guitar types and prices. I used the striped columns option from bootstrap to help with readability.  -->
+  <table class="table table-dark table-striped-columns text-light fs-1">
     <h1>Catalogue</h1>
     <thead>
       <tr>
@@ -81,8 +82,8 @@
       
     </tbody>
   </table>
-<!-- form dropdown menu with text inputs and "checkout button" -->
-<section id="cart" class="bg-light">
+<!-- I wanted create a dropdown menu option where you select your guitar of choice, the color, and the quantity. The goal is to simulate an online store -->
+<section id="cart" class="bg-dark text-light fs-3">
 <h1>Take One Home</h1>
 
 <p>Select your dream music machine below</p>
@@ -115,7 +116,7 @@
   <br><br>
   <input type="text" name="color" placeholder="Color Preference"> <br>
   <input type="text" name="quantity" placeholder="Quantity"> <br><br>
-  <!-- This button can't do anything yet without js. -->
+  <!-- This button is meant to simulate the "add to cart" function. I will be able to do more with it once we learn js. -->
   <button type="button">Add to Cart</button><br><br>
 </form>
 </section>         
